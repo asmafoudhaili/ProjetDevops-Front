@@ -19,4 +19,4 @@ RUN npm run build --prod
 FROM nginx:alpine
 
 # Copie du build de l'application Angular à partir du builder stage
-COPY --from=builder /app/dist/projet-angular /usr/share/nginx/html
+COPY --from=builder /app/dist/crudtuto-Front /usr/share/nginx/html
