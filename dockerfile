@@ -1,4 +1,5 @@
-FROM node:alpine AS builder
+# Utilisation de l'image Node.js version 18.20.2 comme base
+FROM node:18.20.2 AS builder
 
 # Définition du répertoire de travail
 WORKDIR /app
