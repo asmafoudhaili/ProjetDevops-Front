@@ -1,4 +1,3 @@
-# Utilisation d'une image Node.js comme base
 FROM node:alpine AS builder
 
 # Définition du répertoire de travail
